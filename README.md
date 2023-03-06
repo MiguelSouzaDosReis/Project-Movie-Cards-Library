@@ -1,3 +1,3 @@
 # Project Movie Cards Library
 
-Este foi o meu primeiro projeto utilizando o framework React, criando assim esse site  _[Project-Movie-Cards-Library](https://project-movie-cards-library.pages.dev/)_
+Este foi o meu primeiro projeto utilizando o framework React, nesse site criei uma biblioteca de cards de filmes, você pode acesar o site em _[Project-Movie-Cards-Library](https://project-movie-cards-library.pages.dev/)_
