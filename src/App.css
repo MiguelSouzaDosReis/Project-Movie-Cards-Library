@@ -1,5 +1,5 @@
 body{
-  background-image: url("https://media.istockphoto.com/id/1178841567/pt/vetorial/film-strip-on-grey-brick-wall-background-in-cinematic-style-on-brick-wall-old-cinema.jpg?s=1024x1024&w=is&k=20&c=EQ1i9IYVUipDzusV_rONowreqbBKCb3kBRhopUICATU=");
+  background-image: url("https://media.istockphoto.com/id/1206786604/photo/movie-clapper-board-with-film-strip-on-black-background.jpg?s=170667a&w=0&k=20&c=YP8pVN-qS_hjNg0dShDfv_uR0zda1LZz4ILqe8yaU74=");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -40,4 +40,5 @@ body{
   text-align: center;
   position: relative;
   top: 10px;
+  color: #fff;
 }
