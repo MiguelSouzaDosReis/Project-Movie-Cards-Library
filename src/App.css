@@ -1,83 +1,43 @@
-body {
-  background-color: whitesmoke;
-  box-sizing: border-box;
-  font-size: 16px;
-}
-
-.movie-card-header {
-  align-items: center;
-  background-color: #343a40;
-  display: flex;
-  height: 100px;
-  justify-content: center;
-}
-
-.page-title {
-  color: #f8f9fa;
-  font-size: 28px;
-  font-weight: 500;
-  text-align: center;
+body{
+  background-image: url("https://media.istockphoto.com/id/1178841567/pt/vetorial/film-strip-on-grey-brick-wall-background-in-cinematic-style-on-brick-wall-old-cinema.jpg?s=1024x1024&w=is&k=20&c=EQ1i9IYVUipDzusV_rONowreqbBKCb3kBRhopUICATU=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .movie-list {
   display: flex;
-  flex-flow: row wrap;
-  padding: 48px 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .movie-card {
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 3px;
+  width: 30%;
+  margin: 10px;
   display: flex;
   flex-direction: column;
-  height: 450px;
-  margin: 5px;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  width: 300px;
 }
 
-
-.movie-card-image {
+.movie-card img {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
-.movie-card-body {
-  flex: 1 1 auto;
-  padding: 20px;
+.movie-card h4,
+.movie-card h5,
+.movie-card p {
+  margin: 10px;
+  text-align: center;
 }
 
-.movie-card-title {
-  font-size: 24px;
-  font-weight: 500;
-  margin: 0 0 12px;
-}
-
-.movie-card-subtitle {
-  color: #6c757d;
-  font-size: 16px;
-  font-weight: 500;
-  margin: 0 0 8px;
-}
-
-.movie-card-storyline {
-  font-size: 14px;
-  text-align: justify;
-}
-
-.rating {
-  background-color: #007bff;
-  border-radius: 25px;
-  color: white;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 3px 9px;
-}
-
-.movie-card-rating {
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
-  display: flex;
-  justify-content: flex-end;
-  padding: 12px 20px;
+.movie-card-header{
+  text-align: center;
+  position: relative;
+  top: 10px;
 }
