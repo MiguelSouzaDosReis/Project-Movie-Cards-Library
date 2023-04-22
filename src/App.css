@@ -1,8 +1,9 @@
 body{
-  background-image: url("https://media.istockphoto.com/id/1206786604/photo/movie-clapper-board-with-film-strip-on-black-background.jpg?s=170667a&w=0&k=20&c=YP8pVN-qS_hjNg0dShDfv_uR0zda1LZz4ILqe8yaU74=");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background: linear-gradient(to bottom, #000000, #ffffff);
+
 }
 
 .movie-list {
