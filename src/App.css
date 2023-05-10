@@ -43,3 +43,33 @@ body{
   top: 10px;
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  .movie-card {
+    width: 45%;
+    margin: 5px;
+  }
+  .movie-card img {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .movie-card {
+    width: 30%;
+    margin: 10px;
+  }
+  .movie-card img {
+    height: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .movie-card {
+    width: 20%;
+    margin: 20px;
+  }
+  .movie-card img {
+    height: 400px;
+  }
+}
